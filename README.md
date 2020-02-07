@@ -1,11 +1,11 @@
 # neo4j
 
 #### Basic command
-  ./neo4j start
-  ./neo4j console
-  ./neo4j stop
-  ./neo4j status
-  ./neo4j restart
+  ./neo4j start 
+  ./neo4j console  
+  ./neo4j stop 
+  ./neo4j status 
+  ./neo4j restart 
   localhost:7474
 
 #### Building Environment
