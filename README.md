@@ -23,6 +23,7 @@ Atchitecture
     Key Points: Native processing and Native graph storage.
 
 ##### Native processing
+![image](https://github.com/CuiMingyu/neo4j/blob/master/image/TraditionalDB.jpg)
 ##### Native graph storage
 
 Cluster
