@@ -1,14 +1,44 @@
 # neo4j
+Basic introduction of neo4j
 
-#### Basic command
-  ./neo4j start 
-  ./neo4j console  
-  ./neo4j stop 
-  ./neo4j status 
-  ./neo4j restart 
-  localhost:7474
+## Content
+*[Operation](#Operation)
+*[Architecture](#Architecture)
+*[cluster](#cluster)
+*[Deployment](#Deployment)
+*[Cypher](#Cypher)
 
-#### Building Environment
-  1. Select suitable JVM which compatiable with Neo4j
-  2. Add Environment Variants
-  3. cd /bin Use basic command
+Operation
+------
+    ./neo4j start 
+    ./neo4j console
+    ./neo4j stop
+    ./neo4j status
+    ./neo4j restart
+    localhost:7474
+
+Atchitecture
+------
+    Key Points: Native processing and Native graph storage.
+
+##### Native processing
+##### Native graph storage
+
+Cluster
+------
+    Support Highly Avaliable and causal clustering 
+    https://neo4j.com/docs/operations-manual/current/clustering/#cluster-installation
+
+Deployment
+------
+    1. Select suitable JVM which can compatiable with Neo4j 
+    2. Add Envrionment Variants
+    3. cd /bin Using basic commands to start it
+
+Cypher
+------
+    1. match(n) return n
+    2. match(p:Person{name:'Bob'}), (p1:Person{name:'Jack'}) 
+    create (p)-[r:FOLLOWS]->(p1)
+    3. match(n) where id(n)= 1 return n
+    ...
