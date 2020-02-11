@@ -2,11 +2,12 @@
 Basic introduction of neo4j
 
 ## Content
-*[Operation](#Operation)
-*[Architecture](#Architecture)
-*[cluster](#cluster)
-*[Deployment](#Deployment)
-*[Cypher](#Cypher)
+* [Operation](#Operation)
+* [Architecture](#Architecture)
+* [cluster](#cluster)
+* [Deployment](#Deployment)
+* [Cypher](#Cypher)
+
 
 Operation
 ------
